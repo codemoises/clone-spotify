@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Circular', Roboto, Arial, Helvetica, sans-serif;
+    src: url(../font/CircularStd-Bold.otf)
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Circular', Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #1ed760;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    background: #000;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-family: 'Circular', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    min-height: 54px;
+}
+
+.main-content {
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 80px;
+    max-width: 970px;
+    
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    max-width: 1170px;
+}
+
+.logo {
+    width: 129px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+header nav {
+    padding-left: 20px;
+}
+
+header nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header ul a {
+    display: block;
+    padding: 28px 17px;
+    font-weight: 700;
+}
+
+header .opacity {
+	opacity: 0.8;
+}
