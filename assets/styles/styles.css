@@ -88,11 +88,24 @@ header nav ul {
 }
 
 header ul a {
-    display: block;
+    display: inline-block;
     padding: 28px 17px;
     font-weight: 700;
 }
 
+header ul .flex-list {
+    background: currentColor;
+    margin: auto 17px;
+    display: inline-flex;
+    height: 16px;
+    width: 1px;
+    color: #fff;
+}
+
 header .opacity {
 	opacity: 0.8;
+}
+
+header ul li:last-child > a {
+    padding-right: 0;
 }
