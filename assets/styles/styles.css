@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Circular', Roboto, Arial, Helvetica, sans-serif;
+    font-family: 'Circular', sans-serif;
     src: url(../font/CircularStd-Bold.otf)
 }
 
@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'Circular', Helvetica, sans-serif;
+    font-family: 'Circular', sans-serif;
 }
 
 a {
@@ -22,17 +22,16 @@ li {
     list-style: none;
 }
 
-a {
+.header nav li a {
     color: #fff;
 }
 
-a:hover {
+.header nav li a:hover {
     color: #1ed760;
 }
 
 h1 {
     text-align: center;
-    margin-top: 100px;
 }
 
 img {
@@ -45,7 +44,7 @@ img {
     top: 0;
     right: 0;
     left: 0;
-    font-family: 'Circular', Arial, Helvetica, sans-serif;
+    font-family: 'Circular', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     min-height: 54px;
@@ -102,10 +101,71 @@ header ul .flex-list {
     color: #fff;
 }
 
-header .opacity {
-	opacity: 0.8;
+header #color-opacity a {
+	color: #d9dadc;
+}
+
+header #color-opacity-2 a {
+	color: #d9dadc;
+}
+
+header #color-opacity a:hover {
+	color: #1ed760;
+}
+
+header #color-opacity-2 a:hover {
+	color: #1ed760;
 }
 
 header ul li:last-child > a {
     padding-right: 0;
+}
+
+main {
+    background: url(../img/bg-img.svg);
+    background-size: 175%;
+    background-repeat: no-repeat;
+    background-position: 46% 6%;
+    height: 100vh;
+    background-color: rgb(41, 65, 171);
+    min-height: 846px;
+    text-align: center;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+main .inicio h1 {
+    width: 800px;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 96px;
+    padding-bottom: 40px;
+    color: #1ED760;
+    letter-spacing: -0.04em !important;
+}
+
+main .inicio p {
+    width: 800px;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 40px;
+    color: #1ED760;
+}
+
+main .inicio button {
+    background-color: #1ED760;
+    color: #2941ab;
+    font-size: inherit;
+    border-radius: 500px;
+    padding: 14px 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-weight: 700;
+    border: 0;
 }
