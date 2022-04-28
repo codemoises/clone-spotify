@@ -265,3 +265,27 @@ footer .footer-icons li a {
 .usa svg {
     margin: 0 8px 0 0;
 }
+
+footer .sobre-info {
+    width: 100%;
+}
+
+footer .sobre-info nav {
+    display: flex;
+}
+
+footer .sobre-info ul {
+    margin: 0 45px 0 0;
+    padding: 0 0 0 15px;
+    display: flex;
+}
+
+.sobre-info li {
+    margin-right: 24px;
+}
+
+.sobre-info li a {
+    padding: 1em 0;
+    font-size: 12px;
+    display: flex;
+}
