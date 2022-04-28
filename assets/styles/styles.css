@@ -195,26 +195,31 @@ footer .footer-content .content-mg {
     
 }
 
-.footer-content .content-mg .footer-pd {
+.footer-content .footer-pd {
     padding: 0 15px;
 }
 
-.footer-content .content-mg .footer-icons {
+.footer-content .footer-pd img {
+    width: 132px;
+    height: 40px;
+}
+
+.footer-content .footer-icons {
     margin: 0 15px 0 auto;
 }
 
-footer .content-mg .footer-icons ul {
+footer .footer-icons ul {
     display: flex;
     margin: 20px 0 0;
     padding: 0;
 }
 
 
-footer .content-mg .footer-icons ul li {
+footer .footer-icons ul li {
     margin-right: 15px;
 }
 
-footer .footer-content .content-mg .footer-icons li a {
+footer .footer-icons li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -224,7 +229,7 @@ footer .footer-content .content-mg .footer-icons li a {
     background-color: #222326;
 }
 
-.content-mg .footer-icons li a img {
+.footer-content .footer-icons li a img {
     display: block;
     width: 24px;
     height: 24px;
