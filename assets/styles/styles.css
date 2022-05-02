@@ -183,6 +183,7 @@ footer {
 footer .footer-content {
     margin: 0 auto;
     width: 1170px;
+    height: 400px;
     display: flex;
     flex-wrap: wrap;
 
@@ -190,7 +191,6 @@ footer .footer-content {
 
 footer .footer-content .content-mg {
     display: flex;
-    webkit-flex-direction: row;
     flex-direction: row;
     width: 50%;
     flex: 0 0 auto;
@@ -214,7 +214,7 @@ footer .footer-content-colunm {
 }
 
 .footer-content .footer-icons {
-    margin: 0 15px 0 auto;
+    margin: 0 0 0 auto;
 }
 
 footer .footer-icons ul {
@@ -258,6 +258,7 @@ footer .footer-icons li a {
 
 .usa {
     margin: 0 15px;
+    margin-top: 77px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -269,6 +270,10 @@ footer .footer-icons li a {
     padding: 0;
     font-size: 12px;
     color: #919496;
+}
+
+.usa a:hover {
+    color: #1ed760;
 }
 
 .usa svg {
@@ -287,6 +292,14 @@ footer .sobre-info ul {
     margin: 0 45px 0 0;
     padding: 0 0 0 15px;
     display: flex;
+}
+
+footer .sobre-info ul a {
+    color: #919496;
+}
+
+footer .sobre-info ul a:hover {
+    color: #1ed760;
 }
 
 .sobre-info li {
@@ -317,4 +330,8 @@ footer .content-mg ul a {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+}
+
+footer .content-mg ul a:hover {
+    color: #1ed760;
 }
